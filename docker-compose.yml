@@ -29,6 +29,5 @@ services:
             - POSTGRES_DATABASE=joplin
             - POSTGRES_USER=joplin
             - POSTGRES_HOST=db
-            - POSTGRES_SSL_REQUIRE=true
-            - PGSSLMODE=no-verify
-              # - POSTGRES_SSL_VERIFY=false
+            - POSTGRES_SSL_ENABLE=true
+            - POSTGRES_SSL_VERIFY=false
